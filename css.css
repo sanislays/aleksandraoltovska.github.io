@@ -1,0 +1,417 @@
+.mainn{
+    background: blueviolet;
+}
+nav {
+    display: flex;
+}
+nav ul{
+    display: flex;
+    text-decoration: none;
+    padding-left: 750px;
+}
+nav ul li{
+    text-decoration: none;
+    padding-right: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    font-size: 25px;
+    font-family: cambria sans-serif;
+    color: black;
+
+}
+.hb{
+    padding-top: 100px;
+    padding-left: 30px;
+    display: flex;
+    padding-bottom: 60px;
+
+}
+.kec h1 a{
+    text-decoration: none;
+    padding-left: 250px;
+    color: blueviolet;
+    font-family: cambria sans-serif;
+}
+footer{
+    display: flex;
+    background:blueviolet;
+    text-align: center;
+    position: relative;
+    bottom: -70px;
+}
+footer p a{
+    color: blueviolet;
+    position: relative;
+    top: 3px;
+    padding-left: 145px;
+
+}
+body > footer > p > a {
+    position: relative;
+    left: 1310px;
+    top: 4px;
+    color: black;
+}
+.hobieden{
+    width: 400px;
+}
+.hobieden p{
+    font-size: 18px;
+    font-family: cambria sans-serif;
+    text-align: justify;
+    justify-content: center;
+    letter-spacing: 1px;
+    color: rebeccapurple;
+}
+body > div.hobi > div:nth-child(2){
+    margin-left: 100px;
+}
+body > div.hobi > div:nth-child(3){
+    margin-left: 300px;
+}
+body > div.hobi > div:nth-child(2)>p{
+    position: relative;
+    left: 120px;
+}
+.hobi{
+    display: flex;
+    padding-left: 40px;
+    padding-top: 30px;
+    margin-left: 100px;
+
+}
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+#contact{
+    background: white;
+    padding-bottom: 230px;
+    height: 500px;
+}
+
+.section-header {
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px 0;
+    font: 300 60px Cambria sans-serif;
+    color: blueviolet;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+.contact-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    max-width: 840px;
+}
+
+/* Left contact page */
+.form-horizontal {
+    /*float: left;*/
+    max-width: 400px;
+    font-family: cambria sans-serif;
+    font-weight: 400;
+}
+
+.form-control,
+textarea {
+    max-width: 400px;
+    background-color: lavender;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.send-button {
+    margin-top: 15px;
+    height: 34px;
+    width: 400px;
+    overflow: hidden;
+    transition: all .2s ease-in-out;
+}
+
+.alt-send-button {
+    width: 400px;
+    height: 34px;
+    transition: all .2s ease-in-out;
+}
+
+.send-text {
+    display: block;
+    margin-top: 10px;
+    font: 700 12px Cambria sans-serif;
+    letter-spacing: 2px;
+}
+
+.alt-send-button:hover {
+    transform: translate3d(0px, -29px, 0px);
+}
+
+/* Begin Right Contact Page */
+.direct-contact-container {
+    max-width: 400px;
+}
+
+/* Location, Phone, Email Section */
+.contact-list {
+    list-style-type: none;
+    margin-left: -30px;
+    padding-right: 20px;
+}
+
+.list-item {
+    line-height: 4;
+    color: #aaa;
+}
+
+.contact-text {
+    font: 300 22px 'cambria', sans-serif;
+    letter-spacing: 2px;
+    color: mediumpurple;
+}
+
+.place {
+    margin-left: 60px;
+}
+
+.phone {
+    margin-left: 60px;
+}
+
+.gmail {
+    margin-left: 60px;
+}
+#contact > div > div > ul > li:nth-child(2) > span > a {
+    font-size: 22px;
+}
+#contact > div > div > ul > li:nth-child(3) > span > a {
+    font-size: 22px;
+}
+.contact-text a {
+    color: mediumpurple;
+    text-decoration: none;
+    transition-duration: 0.2s;
+
+}
+
+.contact-text a:hover {
+    color: mediumpurple;
+    text-decoration: none;
+}
+
+
+/* Social Media Icons */
+.social-media-list {
+    position: relative;
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.social-media-list li a {
+    color: #fff;
+}
+
+.social-media-list li {
+    position: relative;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 10px 3px;
+    line-height: 60px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: rgb(27,27,27);
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.social-media-list li:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    opacity: 0;
+    box-shadow: 0 0 0 1px #fff;
+    transition: all .2s ease-in-out;
+}
+
+.social-media-list li:hover {
+    background-color: #fff;
+}
+
+.social-media-list li:hover:after {
+    opacity: 1;
+    transform: scale(1.12);
+    transition-timing-function: cubic-bezier(0.37,0.74,0.15,1.65);
+}
+
+.social-media-list li:hover a {
+    color: #000;
+}
+
+.copyright {
+    font: 200 14px Cambria sans-serif;
+    color: mediumpurple;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+hr {
+    border-color: rgba(255,255,255,.6);
+}
+
+/* Begin Media Queries*/
+@media screen and (max-width: 850px) {
+    .contact-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .direct-contact-container, .form-horizontal {
+        margin: 0 auto;
+    }
+
+    .direct-contact-container {
+        margin-top: 60px;
+        max-width: 300px;
+    }
+    .social-media-list li {
+        height: 60px;
+        width: 60px;
+        line-height: 60px;
+    }
+    .social-media-list li:after {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+    }
+}
+
+@media screen and (max-width: 569px) {
+
+    .direct-contact-container, .form-wrapper {
+        float: none;
+        margin: 0 auto;
+    }
+    .form-control, textarea {
+
+        margin: 0 auto;
+    }
+
+
+    .name, .email, textarea {
+        width: 280px;
+    }
+
+    .direct-contact-container {
+        margin-top: 60px;
+        max-width: 280px;
+    }
+    .social-media-list {
+        left: 0;
+    }
+    .social-media-list li {
+        height: 55px;
+        width: 55px;
+        line-height: 55px;
+        font-size: 2rem;
+    }
+    .social-media-list li:after {
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+    }
+
+}
+
+
+#contact > div > div{
+    padding-top: 50px;
+}
+#contact > h1{
+    border-color: lightgrey;
+
+    padding-top: 150px;
+}
+#name{
+    padding-right: 200px;
+    border-color: lightgrey;
+    margin: 10px;
+    padding-bottom: 10px;
+}
+#email{    padding-right: 200px;
+    border-color: lightgrey;
+    margin: 10px;
+    padding-bottom: 10px;
+
+
+}
+#contact-form > textarea{
+    padding-right: 200px;
+    border-color: lightgrey;
+    margin: 10px;
+
+
+}
+#phone{
+    position: relative;
+   border-radius: 20px;
+    left: 460px;
+    top: 80px;
+}
+.aboutmee{
+    padding-top: 20px;
+    margin-top: 100px;
+    margin-bottom: -250px;
+    width: 1000px;
+    text-align: center;
+    margin-left: 440px;
+    color: rebeccapurple;
+    font-size: 25px;
+    font-weight: bold;
+    border: solid mediumpurple;
+    border-radius: 40px;
+    border-width: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.last{
+    background: white;
+    opacity: 90%;
+    padding-bottom: 300px;
+}
+#slice{
+    padding-left: 150px;
+}
+#slice{
+    margin-left: -170px;
+}
+body > footer > h4{
+    position: relative;
+    left: 50px;
+}
+#contact > div > div > ul > li:nth-child(2) > span > a {
+    font-family: Cambria sans-serif;
+}
+#contact > div > div > ul > li:nth-child(3) > span > a {
+    font-family: Cambria sans-serif;
+}
